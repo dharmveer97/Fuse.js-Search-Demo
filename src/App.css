@@ -76,38 +76,39 @@ aside {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  border-radius: .4em;
-  margin-right: .6em;
+  border-radius: 0.4em;
+  margin-right: 0.6em;
 }
 
 .character-meta li {
-  margin-bottom: .2em;
+  margin-bottom: 0.2em;
 }
 
 .character-meta li:last-child {
   margin-bottom: 0;
 }
 
-.search label {
+label {
   display: block;
   font-size: 1.2em;
   font-weight: bold;
   font-family: 'Hind', sans-serif;
   text-transform: uppercase;
-  margin-bottom: .2em;
+  margin-bottom: 0.2em;
 }
 
-.search input {
+input {
   width: 100%;
   font-size: 1em;
   background: none;
-  padding: .8em 1em;
-  border: solid 3px #5F4B8B;
+  padding: 2em 1em;
+  border: solid 3px #5f4b8b;
   outline: none;
-  border-radius: .4em;
+  border-radius: 0.4em;
+  margin: 3em 0em 3em 0em;
 }
 
-.search input:focus {
+input:focus {
   border: solid 3px #5e1dec;
   box-shadow: 0 0 6px #5e1dec;
 }
